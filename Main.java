@@ -2,12 +2,10 @@ import java.util.Scanner;
 
 public class Main {
 
-    // method that reverses a string
     public static String reverseString(String text) {
 
         StringBuilder reversed = new StringBuilder();
 
-        // go from last character to first
         for (int i = text.length() - 1; i >= 0; i--) {
             reversed.append(text.charAt(i));
         }
